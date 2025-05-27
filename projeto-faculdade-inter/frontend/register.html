@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+  <h2>Cadastro</h2>
+  <form id="register-form">
+    <input type="text" id="username" placeholder="Nome" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Senha" required />
+    <input type="text" id="telefone" placeholder="Telefone" required />
+    <select id="tipo_usuario">
+      <option value="cliente">Cliente</option>
+      <option value="prestador">Prestador</option>
+    </select>
+    <button type="submit">Registrar</button>
+    <p><a href="index.html">Já tem conta? Login</a></p>
+  </form>
+
+  <script src="scripts/auth.js"></script>
+</body>
+</html>
